@@ -1,7 +1,7 @@
- # :star: BUCLES-1 :star:
+ # :star: BUCLES-2 :star:
 ## Un dia nuevo, un nuevo reto
 
-REALIZANDO NUESTRO RETO #7
+REALIZANDO NUESTRO RETO #8
 
 ## 1.EJERCICIO DE CLASE
 ### :round_pushpin: EJERCICIO #1 
@@ -10,14 +10,15 @@ REALIZANDO NUESTRO RETO #7
 #### :space_invader: CODIGO DEL PROGRAMA
 
 ```ruby
-
+range(-2) # No genera una secuencia
+for num in range(-2): print(num) # No imprime el rango
 ```
 
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i>x</i> no ingresa al ciclo</b></figcaption></figure>
+<figure> <img src="https://i.postimg.cc/fTq61dvZ/image.png alt="" width="700" height="auto"/></br>
+<figcaption><b>Codigo donde se obtiene un objeto de rango vacío. Esto se debe a que solo se da el primer argumento de la función range() que especifica el valor de inicio del rango, pero no el el segundo argumento que especifica el valor final del rango, lo que significa que el rango es indefinido y no se puede generar ningún número. <i>x</i> no ingresa al ciclo</b></figcaption></figure>
 </div>
 
 
@@ -27,15 +28,15 @@ REALIZANDO NUESTRO RETO #7
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
-range(0,101)
-for i in range(0,101):
-    print("El cuadrado de " + str(i) + " es " + str(i**2))
+range(0,101)  # Coleccion range con intervalo de 0  101
+for i in range(0,101):  # Bucle for con la coleccion range
+    print("El cuadrado de " + str(i) + " es " + str(i**2)) # Imprime los numeros del 0 al 100 con sus respectivos cuadrados
 ```
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
 <figure> <img src="https://i.postimg.cc/yN5jYr9L/image.png alt="" width="700" height="auto"/></br>
-<figcaption><b> Ingresa Colección <i> range </i> en un intervalo de semi-abierto <i> 0 </i> a <i> 101 </i> ingresan al ciclo y se ejecuta hasta hacer un listado de 1 al 100 con sus respectivos cuadrados</b></figcaption></figure>
+<figcaption><b> Codigo donde ingresa la colección <i> range </i> en un intervalo de semi-abierto de <i> 0 </i> a <i> 101 </i> y se ejecuta hasta hacer un listado de 0 al 100 con sus respectivos cuadrados</b></figcaption></figure>
 </div>
 
 
@@ -45,22 +46,22 @@ for i in range(0,101):
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
-Pares=[]
-Impares=[]
-for i in range(1,1001):
-    if i%2==0:
-        Pares.append(i)
+Pares=[] # Crear una lista vacia para los numeros pares
+Impares=[] # Crear una lista vacia para los numeros impares
+for i in range(1,1001): # Bucle for con la coleccion range
+    if i%2==0: # Si el residuo de la divison es cero es par
+        Pares.append(i) # Metodo append para ingresar el numero par
     else:
-        Impares.append(i)
-print("Los numeros pares en el rango de 0 a 1000 son " + str(Pares))
+        Impares.append(i) # Metodo append para ingresar el numero impar
+print("Los numeros pares en el rango de 0 a 1000 son " + str(Pares)) # Imprimir lita de pares 
 print("\n")
-print("Los numeros impares en el rango de 0 a 1000 son " + str(Impares))
+print("Los numeros impares en el rango de 0 a 1000 son " + str(Impares))  # Imprimir lita de impares 
 ```
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> x </i> ingresan al ciclo y se ejecuta hasta hacer un listado de numeros pares hasta 1000 y otro de numeros impares hasta 999</b></figcaption></figure>
+<figure> <img src="https://i.postimg.cc/jSG9MXdn/image.png alt="" width="700" height="auto"/></br>
+<figcaption><b> Codigo donde ingresa la colección <i> range </i> en un intervalo de semi-abierto de <i> 1 </i> a <i> 1001 </i> y se ejecuta el bucle for hasta hacer un clasificar los numeros del intervalo en pares e impares por medio de un condicional if-else para que ingresen a sus respectivas listas para finalmente imprimirlas </b></figcaption></figure>
 </div>
 
     
