@@ -105,13 +105,19 @@ print("Los numeros impares en el rango de 0 a 1000 son " + str(Impares))  # Impr
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
+n = int(input("Introduce un número entero al que desea elevar n: ")) # pedimos al usuario que introduzca el valor de n
+resultado = 1 # valor inicial del resultado
 
+for i in range(n): # Iniciamos un ciclo for que se ejecuta n veces
+    resultado *= 2 # En cada iteración, multiplicamos resultado por 2 y lo asignamos a resultado
+
+print("El resultado de 2 elevado a la " + str(n)+ " es " + str(resultado)) # resultado final: 2 elevado a la potencia n
 ```
 
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
+<figure> <img src="https://i.postimg.cc/bYgGXt9V/image.png alt="" width="700" height="auto"/></br>
 <figcaption><b>Codigo donde <i> n </i> ingresa al ciclo y se ejecuta para hallar su factorial</b></figcaption></figure>
 </div>
 
