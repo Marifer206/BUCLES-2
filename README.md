@@ -84,8 +84,8 @@ print("Los numeros pares de " + str(n) + " hasta 2 son: "+ str(pares_hasta_el_nu
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> n </i> ingresan al ciclo y se ejecuta y hace un listado de numeros pares en forma descendente hasta el 2 999</b></figcaption></figure>
+<figure> <img src="https://i.postimg.cc/hPYztQ3D/image.png alt="" width="700" height="auto"/></br>
+<figcaption><b>Codigo donde <i> n </i> ingresan al ciclo donde es el limite del range para el bicle for y hace un listado de numeros pares por medio de la opracion modulo en forma descendente hasta del n hasta 2 con el metodo insert de las listas </b></figcaption></figure>
 </div>
 
 
@@ -114,7 +114,7 @@ numeros_con_factorial(n)
 
 <div align='center'>
 <figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> a y b </i> ingresan al ciclo y se ejecuta hasta que la poblacion del pais B (valor de b) supere a la poblacion del pais A (valor de a)</b></figcaption></figure>
+<figcaption><b>Codigo donde <i> n </i> ingresa a dos ciclos for definidos como funciones, la primera para cualular su respectivo factorial y la segunda para poder imprimir el numero con su respectivo factorial llamando a la primera funcion </b></figcaption></figure>
 </div>
 
 #### SOLUCION 2
@@ -129,7 +129,7 @@ for i in range(1, n+1): # Bucle for con la coleccion range
 
 <div align='center'>
 <figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> a y b </i> ingresan al ciclo y se ejecuta hasta que la poblacion del pais B (valor de b) supere a la poblacion del pais A (valor de a)</b></figcaption></figure>
+<figcaption><b>Codigo donde se importa <i> math </i>  y ingresa <i> n </i> ingresa al ciclo for con la coleccion range de un intervalos de 1 hasta n+1 para luego imprimir directamente el numero y su factorial con la funcion factorial </b></figcaption></figure>
 </div>
 
 ### :round_pushpin: PUNTO #5  
@@ -151,7 +151,7 @@ print("El resultado de 2 elevado a la " + str(n)+ " es " + str(resultado)) # res
 
 <div align='center'>
 <figure> <img src="https://i.postimg.cc/bYgGXt9V/image.png alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> n </i> ingresa al ciclo y se ejecuta para hallar su factorial</b></figcaption></figure>
+<figcaption><b>Codigo donde <i> n </i> ingresa al bucle for y se ejecuta para hallar su factorial por medio de la multiplicacion por 2 n veces el resultado </b></figcaption></figure>
 </div>
 
 ### :round_pushpin: PUNTO #6 
@@ -222,7 +222,7 @@ approx_exp(x, n) # llamar a la funcion para que el usuario pueda ingresar los da
 
 <div align='center'>
 <figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> numero </i> ingresa a un ciclo donde se llama a la funcion funcion <i> es_primo </i>  previamente definida que toma como argumento a numero</b></figcaption></figure>
+<figcaption><b>Codigo donde <i> x y n </i> ingresa a un bucle for para calcular la aproximacion y se define una funcion para poder imprimir la aproximacion, valor real, error, y el porcentaje de error y por ultimo de solicita que ingresen los datos y se llama a la funcion <i> approx_exp </i>  previamente definida que toma como argumento a x y n </b></figcaption></figure>
 </div>
 
 ### :round_pushpin: PUNTO #9  
@@ -262,8 +262,8 @@ sin_approx(x, n) # Llamar a la función sin_approx con los valores dados
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> numero </i> ingresa a un ciclo donde se llama a la funcion funcion <i> es_primo </i>  previamente definida que toma como argumento a numero</b></figcaption></figure>
+<figure> <img src="https://i.postimg.cc/BvHMg01F/image.png alt="" width="700" height="auto"/></br>
+<figcaption><b> Codigo donde <i> x y n </i> ingresa a un bucle for para calcular la aproximacion y se define una funcion para poder imprimir la aproximacion, valor real, error, y el porcentaje de error y por ultimo de solicita que ingresen los datos y se llama a la funcion <i> sin_approx </i>  previamente definida que toma como argumento a x y n </b></figcaption></figure>
 </div>
 
 ### :round_pushpin: PUNTO #10 
@@ -311,7 +311,7 @@ arctan_approx(x, n) # Llamar a la función arctan_approx para utilizarla con los
 
 <div align='center'>
 <figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> numero </i> ingresa a un ciclo donde se llama a la funcion funcion <i> es_primo </i>  previamente definida que toma como argumento a numero</b></figcaption></figure>
+<figcaption><b>Codigo donde <i> x y n </i> ingresa a un bucle for para calcular la aproximacion pero antes se asegura con un condicional de que x este dentro del rango y se una funcion para poder imprimir la aproximacion, valor real, error, y el porcentaje de error y por ultimo de solicita que ingresen los datos y se llama a la funcion <i> arctan_approx </i>  previamente definida que toma como argumento a x y n </b></figcaption></figure>
 </div>
 
 ## :sparkles: Esto es todo hoy amigos :blush:, espero poder haberlos ayudado he inspirado para encontar nuevas solociones para nuevos retos :sparkles: 
