@@ -1,4 +1,4 @@
-n = int(input("Introduce un número entero al que desea elevar n: ")) # pedimos al usuario que introduzca el valor de n
+n = int(input("Introduce un número entero al que desea elevar 2: ")) # pedimos al usuario que introduzca el valor de n
 resultado = 1 # valor inicial del resultado
 
 for i in range(n): # Iniciamos un ciclo for que se ejecuta n veces
