@@ -71,7 +71,14 @@ print("Los numeros impares en el rango de 0 a 1000 son " + str(Impares))  # Impr
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
-
+n=int(input("Ingresar numero mayor igual que 2 del cual dese saber los numeros pares antes de el : "))  # Se solicita un número entero cualquiera
+def pares_hasta_el_numero(n): # Definir unas función  para ir hasta s 
+    p = [] # Creas una lista vacia 
+    for i in range(1,n+1): # Establecer el rango y lo unimos a la lista 
+        if i%2==0: # Si el residuo es igual a cero es par, se inserta a la lista 
+            p.insert(0,i) # Se inserta a la lista vacia el número par i que se encuentra en el rango de 1 a n. La posición en la que se inserta el elemento es el índice 0, es decir, al principio de la lista.
+    return p 
+print("Los numeros pares de " + str(n) + " hasta 2 son: "+ str(pares_hasta_el_numero(n)))  # Imprime los numeros pares que se encuentran en el rango
 ```
 
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
@@ -105,8 +112,8 @@ print("Los numeros impares en el rango de 0 a 1000 son " + str(Impares))  # Impr
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
-n = int(input("Introduce un número entero al que desea elevar n: ")) # pedimos al usuario que introduzca el valor de n
-resultado = 1 # valor inicial del resultado
+n = int(input("Introduce un número entero al que desea elevar 2: ")) # Pedimos al usuario que introduzca el valor de n
+resultado = 1 # Valor inicial del resultado
 
 for i in range(n): # Iniciamos un ciclo for que se ejecuta n veces
     resultado *= 2 # En cada iteración, multiplicamos resultado por 2 y lo asignamos a resultado
@@ -198,7 +205,33 @@ $$sin(x) \approx sin(x,n) \approx \sum_{i=0}^{n} (-1)^i \frac{x^{2i+1}}{(2i+1)!}
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
+import math
 
+def sin_approx(x, n):# Definimos la función sin_approx que toma dos argumentos: x y n
+    approx = 0# Inicializamos la variable approx en 0
+    for i in range(n):# Iteramos n veces, sumando cada término de la serie de Maclaurin para el seno
+        term = ((-1)**i * x**(2*i + 1)) / math.factorial(2*i + 1)# Calculamos cada término de la serie de Maclaurin utilizando la fórmula correspondiente
+        approx += term # Sumamos el término actual a la aproximación acumulada
+    error = abs(math.sin(x) - approx)# Calculamos el error absoluto entre la aproximación y el valor real de la función seno
+    real = math.sin(x)
+    p_error = error / real * 100
+    
+    print(f"Aproximación: {approx:.6f}")# Imprir la aproximación
+    print(f"Valor real: {math.sin(x):.6f}")# Imprimimos  el valor real 
+    print(f"Error: {error:.6f}")# Imprimimos el error 
+    print(f"Porciento de error: {p_error:.6f}%")  # Imprime la diferencia entre ambos
+
+    # Condiciones para que el porcentaje de error sea mayor o menor a 0.1 %
+    if p_error <= 0.1:
+        print (f"el porcentaje de error es menor a 0.1%: {p_error:.6f}") 
+    else:
+        print (f"el porcentaje de error es mayor a 0.1%: {p_error:.6f}") 
+
+
+x = float(input("Ingrese el valor de x para aproximar la función seno: ")) #Solicitar valor de x
+n = int(input("Ingrese el número de términos de la serie de Maclaurin que desea utilizar: ")) #solicitar valor de n 
+
+sin_approx(x, n) # Llamar a la función sin_approx con los valores dados
 ```
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
