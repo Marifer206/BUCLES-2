@@ -27,14 +27,17 @@ REALIZANDO NUESTRO RETO #7
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
-
+range(0,101)
+for i in range(0,101):
+    print("El cuadrado de " + str(i) + " es " + str(i**2))
 ```
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> X </i> ingresan al ciclo y se ejecuta hasta hacer un listado de 1 al 100 con sus respectivos cuadrados</b></figcaption></figure>
+<figure> <img src="https://i.postimg.cc/yN5jYr9L/image.png alt="" width="700" height="auto"/></br>
+<figcaption><b> Ingresa Colección <i> range </i> en un intervalo de semi-abierto <i> 0 </i> a <i> 101 </i> ingresan al ciclo y se ejecuta hasta hacer un listado de 1 al 100 con sus respectivos cuadrados</b></figcaption></figure>
 </div>
+
 
 ### :round_pushpin: PUNTO #2 
 + Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
@@ -42,7 +45,16 @@ REALIZANDO NUESTRO RETO #7
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
-
+Pares=[]
+Impares=[]
+for i in range(1,1001):
+    if i%2==0:
+        Pares.append(i)
+    else:
+        Impares.append(i)
+print("Los numeros pares en el rango de 0 a 1000 son " + str(Pares))
+print("\n")
+print("Los numeros impares en el rango de 0 a 1000 son " + str(Impares))
 ```
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
