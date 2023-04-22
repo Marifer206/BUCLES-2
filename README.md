@@ -160,14 +160,23 @@ print("El resultado de 2 elevado a la " + str(n)+ " es " + str(resultado)) # res
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
+n = float(input("Ingresa el numero: ")) #Solicitar número que se quiere elevar 
+e = int(input("Ingresa el exponente del numero: ")) # Solicitar el exponente del numero
 
+resultado = 1 #Inicializar la variable resultado en 1
+
+# Se utiliza un ciclo for para multiplicar x por sí mismo n veces
+for i in range(e):
+    resultado *= n
+
+print(" El resultado de " + str(n) + " elevado a la " + str(e) + " es " + str(resultado) ) # Se imprime el resultado obtenido de la última iteración del ciclo for
 ```
 
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> RANGO ENTRE 1 Y 100 </i> ingresa al ciclo y se ejecuta para adivinar por medio de la reduccion del rango y por medio de ensayo y error </b></figcaption></figure>
+<figure> <img src="https://i.postimg.cc/8P1kgRdJ/image.png alt="" width="700" height="auto"/></br>
+<figcaption><b>Codigo donde <i> n y e </i> ingresa al bucle for y se ejecuta muliplicar x por si mismo n veces para imprimir el resultado </b></figcaption></figure>
 </div>
 
 ### :round_pushpin: PUNTO #7 
@@ -175,14 +184,20 @@ print("El resultado de 2 elevado a la " + str(n)+ " es " + str(resultado)) # res
 
 #### :space_invader: CODIGO DEL PROGRAMA
 ```ruby
-
+for i in range(1, 10): # Se recorre un ciclo for del 1 al 9
+    print(f"Tabla del {i}") # Se imprime la cabecera de la tabla
+    print("\n")
+    # Se recorre otro ciclo for del 1 al 10 para mostrar los valores de la tabla
+    for j in range(1, 11):
+        # Se imprime el resultado de la multiplicación
+        print(f"{i} x {j} = {i*j}")
 ```
 
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
-<figcaption><b>Codigo donde <i> x </i> ingresa al ciclo y se ejecuta hasta encontrar todos sus divisores por medio de un modulo </b></figcaption></figure>
+<figure> <img src="https://i.postimg.cc/YqmRkFp7/image.png alt="" width="700" height="auto"/></br>
+<figcaption><b>Codigo donde se recorren dos bucles for, el primero para imprimir lo inicial de la tabla y el segundo para imprimir su resutado </b></figcaption></figure>
 </div>
 
 
