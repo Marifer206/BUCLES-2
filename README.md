@@ -221,7 +221,7 @@ approx_exp(x, n) # llamar a la funcion para que el usuario pueda ingresar los da
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
+<figure> <img src="https://i.postimg.cc/ZRZ0M1V2/image.png alt="" width="700" height="auto"/></br>
 <figcaption><b>Codigo donde <i> x y n </i> ingresa a un bucle for para calcular la aproximacion y se define una funcion para poder imprimir la aproximacion, valor real, error, y el porcentaje de error y por ultimo de solicita que ingresen los datos y se llama a la funcion <i> approx_exp </i>  previamente definida que toma como argumento a x y n </b></figcaption></figure>
 </div>
 
@@ -310,7 +310,7 @@ arctan_approx(x, n) # Llamar a la función arctan_approx para utilizarla con los
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
+<figure> <img src="https://i.postimg.cc/1RD1t8RG/image.png alt="" width="700" height="auto"/></br>
 <figcaption><b>Codigo donde <i> x y n </i> ingresa a un bucle for para calcular la aproximacion pero antes se asegura con un condicional de que x este dentro del rango y se una funcion para poder imprimir la aproximacion, valor real, error, y el porcentaje de error y por ultimo de solicita que ingresen los datos y se llama a la funcion <i> arctan_approx </i>  previamente definida que toma como argumento a x y n </b></figcaption></figure>
 </div>
 
