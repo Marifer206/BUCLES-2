@@ -113,7 +113,7 @@ numeros_con_factorial(n)
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
+<figure> <img src="https://i.postimg.cc/Cxh48QGh/image.png alt="" width="700" height="auto"/></br>
 <figcaption><b>Codigo donde <i> n </i> ingresa a dos ciclos for definidos como funciones, la primera para cualular su respectivo factorial y la segunda para poder imprimir el numero con su respectivo factorial llamando a la primera funcion </b></figcaption></figure>
 </div>
 
@@ -128,7 +128,7 @@ for i in range(1, n+1): # Bucle for con la coleccion range
 :checkered_flag: **EL PROGRAMA EJECUTADO SE VE ASI**
 
 <div align='center'>
-<figure> <img src="h" alt="" width="700" height="auto"/></br>
+<figure> <img src="https://i.postimg.cc/7ZKnnn9g/image.png alt="" width="700" height="auto"/></br>
 <figcaption><b>Codigo donde se importa <i> math </i>  y ingresa <i> n </i> ingresa al ciclo for con la coleccion range de un intervalos de 1 hasta n+1 para luego imprimir directamente el numero y su factorial con la funcion factorial </b></figcaption></figure>
 </div>
 
